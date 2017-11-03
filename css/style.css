@@ -244,9 +244,14 @@ position: relative;
 
     .slider-content h2{
     color: red;
-
+     margin: auto
 }
 
+
+      .slider-content h3{
+    color: red;
+     margin: auto
+}
 .slider{
     position: relative;
 }
