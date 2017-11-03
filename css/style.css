@@ -222,22 +222,54 @@ font-size: 19px;
 .slider-item{
     background: url("../img/slid1.png") right center no-repeat;
     height: 600px;
-
+position: relative;
     border: 1px solid red;
 }
 
-/*
-.slider-content{
-    background:  rgba(0, 0, 0.7);
+
+    .slider-content{
+ background: rgba(0, 0, 0, 0.71);
     position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
     display: flex;
     flex-flow: row wrap;
+    align-content: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 60px;
+}
+
+    .slider-content h2{
+    color: red;
 
 }
 
 .slider{
     position: relative;
 }
+
+.arrow{
+       font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.left{
+    left: 20px;
+    color: red;
+    }
+
+.right{
+    right: 20px;
+    color: red;
+    }
+
 
 
 
